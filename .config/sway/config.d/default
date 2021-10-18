@@ -9,7 +9,8 @@ set $right l
 
 # Your preferred terminal emulators
 #set $term-float xfce4-terminal
-set $term-float alacritty -e tmux
+#set $term-float alacritty -e tmux
+set $term-float foot -e tmux
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -205,7 +206,7 @@ bindsym --whole-window --border $mod+shift+button5 resize grow width 5 px or 5 p
 #
 # Screenshots
 #
-    bindsym home exec /usr/share/sway/scripts/grimshot --notify save output
+    #bindsym home exec /usr/share/sway/scripts/grimshot --notify save output
     bindsym Shift+home exec ~/.config/sway/scripts/screenshot.sh
 #
 # Keybindings List

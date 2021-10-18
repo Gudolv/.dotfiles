@@ -834,3 +834,5 @@ colors:
 #log_level: Warn
 # Print all received window events.
 #print_events: false
+#ed window events.
+#print_events: false
