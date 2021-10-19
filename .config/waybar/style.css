@@ -1,3 +1,12 @@
+/* Nord
+@define-color text    @foreground;
+@define-color warn    @color6;
+@define-color crit    @color2;
+@define-color accent  @color4;
+@define-color hilight @color1;
+*/
+
+
 * {
   border: none;
   font-family: Iosevka Nerd Font, sans-serif;
